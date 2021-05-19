@@ -1,0 +1,31 @@
+.Todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #D3CCE3;
+}
+
+.Todo-item p {
+    cursor: pointer;
+}
+
+.Todo-btns {
+    display: flex;
+    justify-self: flex-end;
+}
+
+.Todo-btns button:nth-of-type(1) {
+    padding-right: 1em;
+}
+
+.Todo-btns button {
+    display: flex;
+    font-size: 20px;
+    padding: 0;
+    background: none;
+    border: none;
+}
+
+.Todo-cross {
+    text-decoration: line-through;
+}
